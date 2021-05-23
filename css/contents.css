@@ -1,0 +1,66 @@
+#contents>#cont1>.tab>.tab_btn {
+    width: 400px;
+    height: 40px;
+    float: left;
+}
+
+#contents>#cont1>.tab>.tab_btn>a{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#contents>div {
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    float: left;
+}
+
+#contents>div>img {
+    width: 320px;
+    height: 178px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.notice_list {
+    width: 400px;
+    height: 200px;
+}
+
+.notice_list>li {
+    margin-top: 10px;
+    width: 400px;
+    height: 30px;
+}
+
+.notice_list>li>a {
+    padding: 4px;
+    float: left;
+    width: 400px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-sizing: border-box;
+    font-size: 12px;
+    position: relative;
+}
+
+.notice_list>li>a>span {
+    position: absolute;
+    left: 283px;
+    top: -1px;
+    padding: 4px;
+    font-size: 12px;
+    float: right;
+    width: 116px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-sizing: border-box;
+}

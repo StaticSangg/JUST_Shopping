@@ -1,0 +1,26 @@
+#footer>.logo {
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+
+#footer>.logo>img {
+    padding-top: 20px;
+}
+
+#footer>address {
+    
+    font-style: italic;
+}
+
+.sns>ul>li>a {
+    float: left;
+    width: 32px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+.sns>ul>li>a>img {
+    width: 40px;
+    height: 40px;
+}

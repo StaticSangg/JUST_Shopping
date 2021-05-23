@@ -1,0 +1,14 @@
+#wrap>#img_slide {
+    position: relative;
+    overflow: hidden;
+}
+
+#wrap>#img_slide>#slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#wrap>#img_slide>#slide>img {
+    display: block;
+}
