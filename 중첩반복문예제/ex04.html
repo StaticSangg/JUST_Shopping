@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script>
+            var start = parseInt(prompt("start"));
+            var end = parseInt(prompt("end"));
+            var cnt = 0;
+            for (var num = start; num <= end; num++) {
+                for (var i = 2; i <= num; i++) {
+                    if (num % i == 0) {
+                        break;
+                    }                    
+                }
+                if (num == i) {
+                    document.write(num + "<br>");
+                }
+            }
+        </script>
+    </head>
+</html>

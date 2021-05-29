@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script>
+            var num = parseInt(prompt("triangle"));
+            for (var i = 0; i < num; i++) {
+                for (var k = num - 1; k > i; k--) {
+                    document.write("&nbsp");
+                }
+                for (var j = 0; j <= i; j++) {                                                            
+                    document.write("*");
+                }
+                document.write("<br>")
+            }
+        </script>
+    </head>
+</html>
